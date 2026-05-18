@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+.cache
+.DS_Store
+*.local
+.env*
+!.env.example
+*.log
+.vite
+coverage
+.nyc_output
+dev-dist
+
+# Claude / agentes / planes (no versionar)
+.claude/
+AGENTS.md
+PLAN.md
+SDD-GUIA.md
