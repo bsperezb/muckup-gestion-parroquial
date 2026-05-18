@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import path from 'node:path'
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? '/muckup-gestion-parroquial/' : '/',
   plugins: [
     vue(),
     VitePWA({
